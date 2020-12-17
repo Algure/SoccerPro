@@ -87,6 +87,32 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1102 &1102173057305899306
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: holdBallForThrowIn
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 8bf0249c8f91e4e4293ecbf5f52dd80d, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1102390957105110352
 AnimatorState:
   serializedVersion: 5
@@ -244,6 +270,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &1102747655045478140
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThrowIn
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: fd2fa7c99a7a3474e8f3741d46fcaa6f, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1102934361413806518
 AnimatorState:
   serializedVersion: 5
@@ -307,7 +359,7 @@ AnimatorStateMachine:
     m_Position: {x: 528, y: 24, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102597743203316026}
-    m_Position: {x: 552, y: -36, z: 0}
+    m_Position: {x: 528, y: -36, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102446265035902948}
     m_Position: {x: 252, y: -24, z: 0}
@@ -320,6 +372,12 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1102424495161950766}
     m_Position: {x: 24, y: -72, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102173057305899306}
+    m_Position: {x: 540, y: -96, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102747655045478140}
+    m_Position: {x: 540, y: -144, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

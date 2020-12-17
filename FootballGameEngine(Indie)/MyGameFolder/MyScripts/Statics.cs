@@ -9,14 +9,14 @@ public class Statics
     public static float offsetDistance=2;
     public static float GeneralSpeedFactor = 2.8f;
     internal static float GoalShotMinDistance=25;
-    internal static float moveToPostMaxDistance4Midfielder=30;
+    internal static float moveToPostMaxDistance4Midfielder=35;
     internal static float moveToPostMaxDistance4Striker=20;
     internal static float maxPlayerPursueRange = 10;
-    internal static float TimeB4KickOff=1;
-    internal static float TimeToRestoreDefaultPoint=8;
+    internal static float TimeB4KickOff=10;
+    internal static float TimeToRestoreDefaultPoint=16;
 
     public static Material[] playerMaterials = {
-        Resources.Load("PlayerRedMaterial") as Material,
+     Resources.Load("PlayerRedMaterial") as Material,
      Resources.Load("BlueMat") as Material,
     Resources.Load("PlayerPurpleMat") as Material,
     Resources.Load("PlayerRedKitMaterial") as Material};

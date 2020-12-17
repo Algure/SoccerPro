@@ -43,7 +43,7 @@ public class CameraMotion : MonoBehaviour
         }
         else
         {
-            if (matchManager.returnToDefaults) return;
+            if (matchManager.returnToDefaults && !matchManager.isToKickOff) return;
 
             if (ball.CurrentOwner == null)
             {
